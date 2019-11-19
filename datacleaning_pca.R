@@ -109,6 +109,8 @@ fviz_screeplot(p, addlabels=T, ylim =c(0,100))
 
 get_eigenvalue(p)
 
+## USE 30 DIMENSIONS
+
 # Eigenavalue > 1 and cumulative.variance.percent > 94
 
 fviz_pca_contrib(p, choice="var")
@@ -135,7 +137,7 @@ fviz_screeplot(p2, addlabels=T, ylim =c(0,100))
 
 get_eigenvalue(p2)
 
-## dim 15:
+## USE 15 DIMENSIONS
 
 # Eigenavalue > 1 and cumulative.variance.percent > 98 
 
